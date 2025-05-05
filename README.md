@@ -27,6 +27,11 @@ Token42 is a custom BEP-20 compliant token deployed on the BNB Smart Chain Testn
 - **Blockchain**: BNB Smart Chain Testnet
 - **Contract Standard**: BEP-20
 - **Solidity Version**: ^0.8.0
+- **Security Features**: 
+  - ReentrancyGuard
+  - Owner-only minting/burning
+  - Supply cap enforcement
+  - Zero-address checks
 
 ## 🎯 Design Choices
 
@@ -95,4 +100,9 @@ This contract has been implemented with security best practices in mind. However
 
 ## 📞 Support
 
-For support, please open an issue in the GitHub repository. 
+For support, please open an issue in the GitHub repository.
+
+## 📍 Contract Address
+
+- **Testnet**: [Contract Address] (To be added after deployment)
+- **Mainnet**: Not deployed yet

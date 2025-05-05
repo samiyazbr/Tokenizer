@@ -28,6 +28,25 @@ Token42 is a custom BEP-20 compliant token deployed on the BNB Smart Chain Testn
 - **Contract Standard**: BEP-20
 - **Solidity Version**: ^0.8.0
 
+## 🎯 Design Choices
+
+### Smart Contract Architecture
+- **OpenZeppelin Contracts**: Chosen for their battle-tested, audited implementations of standard token functionality, ensuring security and reliability.
+- **BEP-20 Standard**: Selected to ensure compatibility with the BNB Smart Chain ecosystem and seamless integration with existing wallets and exchanges.
+
+### Token Parameters
+- **18 Decimals**: Standard choice for most tokens, providing sufficient precision for both large and small transactions while maintaining compatibility with most DeFi protocols.
+- **1,000,000 Initial Supply**: Balanced amount that allows for meaningful distribution while maintaining token value and utility.
+- **Minting/Burning Capabilities**: Implemented with owner control to allow for future token supply management based on project needs.
+
+### Security Considerations
+- **Ownership Controls**: Implemented to ensure only authorized parties can perform critical operations like minting and burning.
+- **Testnet Deployment**: Initial deployment on BNB Smart Chain Testnet allows for thorough testing and validation before mainnet deployment.
+
+### Development Tools
+- **Remix IDE**: Selected for its comprehensive development environment, built-in compiler, and easy deployment capabilities.
+- **MetaMask Integration**: Chosen for its widespread adoption and robust security features.
+
 ## 📦 Project Structure
 
 ```
